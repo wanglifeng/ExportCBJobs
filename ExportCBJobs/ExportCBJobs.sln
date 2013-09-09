@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExportCBJobs", "ExportCBJobs\ExportCBJobs.csproj", "{6ED5B1BE-13C0-42C8-9547-3D13E5812B08}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleProgram", "ConsoleProgram\ConsoleProgram.csproj", "{CCEC0D2D-F4BF-43B3-8F4B-6D9895894204}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AliCSSSdk", "AliCSSSDK\AliCSSSdk.csproj", "{70424038-0DC6-4C77-A357-DF983E06D4F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APICaller", "D:\Work\NET\Projects\InProgress\botchatService\APICaller\APICaller.csproj", "{A1C0F55E-CEF4-4E01-8B95-10ED7C47A310}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6ED5B1BE-13C0-42C8-9547-3D13E5812B08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6ED5B1BE-13C0-42C8-9547-3D13E5812B08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6ED5B1BE-13C0-42C8-9547-3D13E5812B08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6ED5B1BE-13C0-42C8-9547-3D13E5812B08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCEC0D2D-F4BF-43B3-8F4B-6D9895894204}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCEC0D2D-F4BF-43B3-8F4B-6D9895894204}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCEC0D2D-F4BF-43B3-8F4B-6D9895894204}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCEC0D2D-F4BF-43B3-8F4B-6D9895894204}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70424038-0DC6-4C77-A357-DF983E06D4F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70424038-0DC6-4C77-A357-DF983E06D4F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70424038-0DC6-4C77-A357-DF983E06D4F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70424038-0DC6-4C77-A357-DF983E06D4F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1C0F55E-CEF4-4E01-8B95-10ED7C47A310}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1C0F55E-CEF4-4E01-8B95-10ED7C47A310}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1C0F55E-CEF4-4E01-8B95-10ED7C47A310}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1C0F55E-CEF4-4E01-8B95-10ED7C47A310}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
