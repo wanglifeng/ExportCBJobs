@@ -25,6 +25,6 @@ namespace AliCSSSDK.Models
         public int integer_2 { get; set; }
         public int integer_3 { get; set; }
         public String tag { get; set; }
-        public String[] display_text { get; set; }
+        public List<String> display_text { get; set; }
     }
 }

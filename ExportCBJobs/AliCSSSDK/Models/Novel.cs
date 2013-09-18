@@ -7,6 +7,8 @@ namespace AliCSSSDK.Models
 {
     public class Novel : BaseModel
     {
+        public Novel() : base() { }
+
         public string isbn { get; set; }
         public uint group_id { get; set; }
         public string type { get; set; }

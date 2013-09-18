@@ -19,7 +19,13 @@ namespace AliCSSSDK.Callers
         protected IRestResponse Execute(IRestRequest request)
         {
             var rsp = CLIENT.Execute(request);
-            Console.WriteLine(rsp.Content);
+            Console.WriteLine("{0}:{1}", rsp.StatusCode, rsp.Content);
+            return rsp;
+        }
+
+        protected IRestResponse<T> Execute<T>(IRestRequest request) where T : new()
+        {
+            var rsp = CLIENT.Execute<T>(request);
             return rsp;
         }
     }
